@@ -1,6 +1,6 @@
 # starcraft_bot
 
-Projeto UFPE 2020.3 - Agentes Autônomos
+Projeto UFPE 2020.3 - Agentes Autônomos  
 Grupo:  
 Augusto Terra (aht)  
 Carlos Eduardo de Mello (ceblmp)  
