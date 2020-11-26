@@ -124,6 +124,12 @@ class BotDaGalera(BotAI):
         ):
             for _townhall in self.townhalls.idle:
                 _townhall.train(UnitTypeId.SCV)
+
+
+        #criando soldados
+        for rax in self.structures(UnitTypeId.BARRACKS).ready.idle:
+            if self.can_afford(UnitTypeId.MARINE):
+                rax.train(UnitTypeId.MARINE)
         
 
 
